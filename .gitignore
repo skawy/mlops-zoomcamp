@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all yellow_tripdata_*.parquet files in 1-intro directory
+1-intro/yellow_tripdata_*.parquet
+
+
 # Distribution / packaging
 .Python
 build/
