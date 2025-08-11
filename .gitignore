@@ -9,6 +9,11 @@ __pycache__/
 # Ignore all yellow_tripdata_*.parquet files in 1-intro directory
 1-intro/yellow_tripdata_*.parquet
 2-experiment-tracking/data/
+2-experiment-tracking/output/
+2-experiment-tracking/models/
+2-experiment-tracking/mlruns/
+
+
 
 # Distribution / packaging
 .Python
