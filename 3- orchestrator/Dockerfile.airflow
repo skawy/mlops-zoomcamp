@@ -1,0 +1,6 @@
+FROM apache/airflow:2.7.1
+RUN pip install  -U pip --upgrade pip
+RUN pip install pandas scikit-learn requests xgboost optuna mlflow
+
+# COPY requirements.txt /
+# RUN pip install --no-cache-dir --user -r /requirements.txt
